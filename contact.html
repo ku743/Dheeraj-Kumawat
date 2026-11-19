@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Us Page</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body>
+
+     <header>
+    <!-- Navbar -->
+    <nav class="w-full px-5 md:px-10 py-5 flex flex-col md:flex-row justify-between items-center gap-5">
+
+        <div class="text-center md:text-left">
+            <h2 class="text-3xl font-bold">Juniper <span class="text-[#B76E4C]">&</span> Roast</h2>
+            <p class="text-xs tracking-widest">COFFEE • FOOD • MOMENTS</p>
+        </div>
+
+        <ul class="flex flex-wrap justify-center gap-5 md:gap-8 text-sm font-medium">
+            <li><a href="index.html" class="text-[#B76E4C]">Home</a></li>
+            <li><a href="menu.html" class="hover:text-[#B76E4C]">Our Menu</a></li>
+            <li><a href="gallery.html" class="hover:text-[#B76E4C]">Gallery</a></li>
+            <li><a href="about.html" class="hover:text-[#B76E4C]">About</a></li>
+            <li><a href="contact.html" class="hover:text-[#B76E4C]">Contact</a></li>
+        </ul>
+
+        <a href="menu.html"
+            class="bg-[#49352B] text-white px-6 py-3 rounded-full text-sm hover:bg-[#B76E4C]">
+            Explore Menu
+        </a>
+
+    </nav>
+
+    </header>
+
+
+
+<section class="bg-white py-12 px-4 sm:px-6 lg:px-10" id="contact">
+
+    <div class="max-w-6xl mx-auto">
+
+        <!-- Heading -->
+        <div class="text-center mb-9">
+            <p class="text-orange-600 font-semibold uppercase tracking-widest text-sm">
+                Get In Touch
+            </p>
+
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-2">
+                Contact Us
+            </h2>
+
+            <p class="text-gray-500 mt-3">
+                We'd love to hear from you. Get in touch with us!
+            </p>
+        </div>
+
+        <!-- Contact Content -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <!-- Contact Details -->
+            <div class="bg-gray-50 p-6 sm:p-8 rounded-xl">
+
+                <h3 class="text-2xl font-bold text-gray-900 mb-6">
+                    Let's Talk
+                </h3>
+
+                <div class="space-y-6">
+
+                    <div>
+                        <h4 class="font-semibold text-gray-800">Our Address</h4>
+                        <p class="text-gray-600 text-sm mt-1">
+                            Jaipur, Rajasthan, India
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-gray-800">Phone Number</h4>
+                        <p class="text-gray-600 text-sm mt-1">
+                            +91 98765 43210
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-gray-800">Email Address</h4>
+                        <p class="text-gray-600 text-sm mt-1">
+                            hello@ourcafe.com
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-gray-800">Business Hours</h4>
+                        <p class="text-gray-600 text-sm mt-1">
+                            Monday – Sunday: 10 AM – 10 PM
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact Form -->
+            <div class="bg-white p-6 sm:p-8 rounded-xl shadow-md">
+
+                <form action="#" method="post">
+
+                    <!-- Name -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-medium mb-2">
+                            Your Name
+                        </label>
+
+                        <input type="text" name="name"
+                            placeholder="Enter your name"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:border-orange-500">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-medium mb-2">
+                            Email Address
+                        </label>
+
+                        <input type="email" name="email"
+                            placeholder="Enter your email"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:border-orange-500">
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-medium mb-2">
+                            Phone Number
+                        </label>
+
+                        <input type="tel" name="phone"
+                            placeholder="Enter your phone number"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:border-orange-500">
+                    </div>
+
+                    <!-- Service Dropdown -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700 font-medium mb-2">
+                            Select Service
+                        </label>
+
+                        <select name="service"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:border-orange-500 text-gray-600">
+
+                            <option value="">Select a Service</option>
+                            <option value="Dine In">Dine In</option>
+                            <option value="Takeaway">Takeaway</option>
+                            <option value="Home Delivery">Home Delivery</option>
+                            <option value="Table Reservation">Table Reservation</option>
+                            <option value="Catering">Catering</option>
+
+                        </select>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="mb-5">
+                        <label class="block text-gray-700 font-medium mb-2">
+                            Your Message
+                        </label>
+
+                        <textarea name="message" rows="3"
+                            placeholder="Write your message..."
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:border-orange-500"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit"
+                        class="w-full bg-orange-600 text-white py-3 rounded-lg font-semibold hover:bg-orange-700 transition duration-300">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+ <footer class="bg-[#30251F] text-white px-5 md:px-10 pt-16 pb-8">
+
+        <div class="max-w-7xl mx-auto">
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-12">
+
+                <!-- Brand -->
+                <div>
+
+                    <h2 class="text-3xl font-bold">
+                        Juniper <span class="text-[#D9A98F]">&</span> Roast
+                    </h2>
+
+                    <p class="text-gray-400 mt-5 leading-7 text-sm">
+                        Good coffee, fresh food and a cosy little
+                        corner to make your everyday moments better.
+                    </p>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div>
+
+                    <h3 class="text-lg font-bold mb-5">Quick Links</h3>
+
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li><a href="index.html" class="hover:text-white">Home</a></li>
+                        <li><a href="menu.html" class="hover:text-white">Our Menu</a></li>
+                        <li><a href="gallery.html" class="hover:text-white">Gallery</a></li>
+                        <li><a href="about.html" class="hover:text-white">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+                    </ul>
+
+                </div>
+
+
+                <!-- Opening Hours -->
+                <div>
+
+                    <h3 class="text-lg font-bold mb-5">Opening Hours</h3>
+
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li>Mon - Fri: 9 AM - 10 PM</li>
+                        <li>Saturday: 9 AM - 11 PM</li>
+                        <li>Sunday: 10 AM - 10 PM</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div>
+
+                    <h3 class="text-lg font-bold mb-5">Find Us</h3>
+
+                    <ul class="space-y-4 text-gray-400 text-sm">
+
+                        <li>Jaipur, Rajasthan, India</li>
+                        <li>+91 00000 00000</li>
+                        <li>hello@juniperandroast.com</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="border-t border-white/20 pt-7 text-center text-gray-400 text-sm">
+
+                <p>© 2026 Juniper & Roast. All rights reserved.</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    
+</body>
+</html>
